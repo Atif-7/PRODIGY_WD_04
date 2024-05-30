@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atif Ur Rehman | Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav>
+        <div class="logo">
+            <h2><a href="index.html"><span class="red">A</span>tif</a></h2>
+        </div>
+        <ul class="menu" id="menu">
+            <li class="menuitem">
+                <a class="active" href="#home">Home</a>
+            </li>
+            <li class="menuitem">
+                <a href="#about">About</a>
+            </li>
+            <li class="menuitem">
+                <a href="#services">Services</a>
+            </li>
+            <li class="menuitem">
+                <a href="#portfolio">Portfolio</a>
+            </li>
+            <li class="menuitem">
+                <a href="#contact">Contact</a>
+            </li>
+            <i class="fa fa-times" aria-hidden="true" onclick="closenav()"></i>
+        </ul>
+        <i class="fa fa-bars" aria-hidden="true" onclick="opennav()"></i>
+    </nav>
+
+    <section id="home">
+        <p>Full Stack Web Developer</p>
+        <h1>Hi, I'm <span class="red">Atif</span> <span class="light-text"> Ur <br> Rehman </span>from Pakistan</h1>
+    </section>
+
+    <section id="about">
+        <div class="container">
+            <div class="col1">
+                <img src="img/about1.png" alt="myImage">
+            </div>
+            <div class="col2">
+                <h1 class="heading">About Me</h1>
+                <p> Hello there! I’m a full stack web developer, and I’m very passionate and dedicated to my work. With 01 year experience as a professional web developer, I have acquired the skills and knowledge necessary to make your project a success. I enjoy every step of the development process, from discussion and collaboration.</p>
+
+                <div class="tabTitles">
+                    <p class="tabLink active-tab" onclick="openTab('skills')">Skills</p>
+                    <p class="tabLink" onclick="openTab('certifications')">Certifications</p>
+                    <p class="tabLink" onclick="openTab('education')">Education</p>
+                </div>
+
+                <div class="tabContents active-content" id="skills">
+                    <ul>
+                        <li>
+                            <span>WordPress Development</span> <br>Wordpress Websites designing and development
+                        </li>
+                        <li>
+                            <span>PHP Development</span> <br>Building Dynamic Websites with Php backend
+                        </li>
+                        <li>
+                            <span>Laravel Development</span> <br>Complete Websites with Laravel
+                        </li>
+                    </ul>
+                </div>
+                <div class="tabContents" id="certifications">
+                    <ul>
+                        <li>
+                            <span>Full Stack Web Development</span> <br>Completed Full-Stack Web Development Course and earned Certificate from Ehunar.org 
+                        </li>
+                        <li>
+                            <span>Web Development</span> <br>Completed Web Development Internship and got Certificate from SYNCINTERN'S
+                        </li>
+                        <li>
+                            <span>WordPress Development</span> <br>Completed WordPress Development Internship and got Certificate from CODEXCUE
+                        </li>
+                    </ul>
+                </div>
+                <div class="tabContents" id="education">
+                    <ul>
+                        <li>
+                            <span>ADC Part 1</span> <br>
+                            From Benazir Bhutto University (Appeared) 
+                        </li>
+                        <li>
+                            <span>Intermediate</span> 
+                            <br>Intermediate in Commerce From 
+                            Gov. Degree Boys College Gulzar-e-Hijri
+                        </li>
+                        <li>
+                            <span>Matriculation</span> <br>Matriculation in Computer Science From board of secondary Education Karachi
+                        </li>
+                    </ul>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <section id="services">
+        <h1 class="heading">My Services</h1>
+        <div class="services">
+            <div class="service">
+                <div>
+                    <h2>Front-End Development</h2>
+                    <i class="fa-solid fa-crop-simple"></i>
+                </div>
+                <p>
+                    Create the user-facing interface of a website or web application. focus on implementing engaging and interactive designs using HTML, CSS and JavaScript.
+                </p>
+            </div>
+            <div class="service">
+                <div>
+                    <h2>Backend Development</h2>
+                    <i class="fa-solid fa-server"></i>
+                </div>
+                <p>
+                    Server-side aspects of the web development process. involves building the underlying infrastructure, managing databases, processing requests and handling the business logic that powers the website or web application.
+                </p>
+               
+            </div>
+            <div class="service">
+                <div>
+                    <h2>Full-Stack Development</h2>
+                    <i class="fa-solid fa-code"></i>
+                </div>
+                <p>
+                    Involves both frontend and backend development. handling all layers of the web application development.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <section id="portfolio">
+        <h1 class="heading">My Work</h1>
+        <div class="works">
+            <div class="work">
+                <img src="img/work1.png" alt="">
+                <div class="layer">
+                    <h3>Tribute Page</h3>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero expedita nulla hic iste.
+                    </p>
+                    <a href=""><i class="fas fa-external-link-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="img/work0.png" alt="">
+                <div class="layer">
+                    <h3>Stopwatch</h3>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero expedita nulla hic iste.
+                    </p>
+                    <a href=""><i class="fas fa-external-link-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="img/work4.png" alt="">
+                <div class="layer">
+                    <h3>Weather App</h3>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero expedita nulla hic iste.
+                    </p>
+                    <a href=""><i class="fas fa-external-link-square"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="works">
+            <div class="work">
+                <img src="img/work.png" alt="">
+                <div class="layer">
+                    <h3>Responsive Landing Page</h3>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero expedita nulla hic iste.
+                    </p>
+                    <a href=""><i class="fas fa-external-link-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="img/work3.png" alt="">
+                <div class="layer">
+                    <h3>Quiz App</h3>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero expedita nulla hic iste.
+                    </p>
+                    <a href=""><i class="fas fa-external-link-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="img/work2.png" alt="">
+                <div class="layer">
+                    <h3>Tic-Tac-Toe Game</h3>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero expedita nulla hic iste.
+                    </p>
+                    <a href=""><i class="fas fa-external-link-square"></i></a>
+                </div>
+            </div>
+        </div>
+        <a href="#" class="btn">See More</a>
+    </section>
+
+    <section id="contact">
+
+        <div class="container">
+            <div class="leftside">
+                <h3 class="heading">Contact Me</h3>
+                <p><i class="fa-solid fa-envelope"></i> ratif3610@gamil.com</p>
+                <p><i class="fa fa-phone"></i> +923193955313</p>
+                <div class="linkIcons">
+                    <a href="www.facebook.com" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="https://www.linkedin.com/in/dev-atif-ur-rehman/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="https://github.com/Atif-7" target="_blank"><i class="fa fa-github" aria-hidden="true"></i></a>
+                </div>
+                <a href="img/ATIF-Full-Stack-Developer.pdf" download class="btn btn2">Download CV</a>
+            </div>
+            <form name="submit-to-google-sheet">
+                <div class="line">
+                    <input type="text" placeholder="Your Name" name="full_name" required>
+                </div>
+                <div class="line">
+                    <input type="text" placeholder="Your Email Address" name="email" required>
+                </div>
+                <div class="line">
+                    <textarea name="message" required cols="30" rows="6" placeholder="Your Message"></textarea>
+                </div>
+                <div class="btn-group">
+                    <button class="btn btn2" type="submit">Send Now</button>
+                    <button class="btn btn2" type="reset">Reset Form</button>
+                </div>
+                <p id="msg"></p>
+            </form>
+            
+        </div>
+    </section>
+
+    <footer>
+        <p> &copy; Copyright @ 2024 - Created by Atif ur Rehman - All rights reserved</p>
+    </footer>
+
+    <script src="https://kit.fontawesome.com/32c370d7c4.js" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+</body>
+</html>
